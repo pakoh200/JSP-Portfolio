@@ -18,6 +18,8 @@ import javax.validation.Validator;
 
 import org.apache.commons.beanutils.BeanUtilsBean;
 
+import net.test.support.MyValidatorFactory;
+
 @WebServlet("/users/create")
 public class CreateUserServlet extends HttpServlet {
 	@Override

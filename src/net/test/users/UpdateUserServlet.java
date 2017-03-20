@@ -17,6 +17,8 @@ import javax.validation.Validator;
 
 import org.apache.commons.beanutils.BeanUtilsBean;
 
+import net.test.support.MyValidatorFactory;
+
 @WebServlet("/users/update")
 public class UpdateUserServlet extends HttpServlet {
 	@Override
