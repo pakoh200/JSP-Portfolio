@@ -4,9 +4,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   <%@ include file="../commons/_head.jspf" %>
+   <%@ include file="./commons/_head.jspf" %>
   </head>
-  <%@ include file="../commons/_navi.jspf" %>
+  <%@ include file="./commons/_navi.jspf" %>
 <div class="container">
 	<div class="page-header">
 		<h1>로그인</h1>
@@ -38,6 +38,6 @@
   		</div>
 	</form>
 </div>
-   <%@ include file="../commons/_footer.jspf" %>
+   <%@ include file="./commons/_footer.jspf" %>
   </body>
 </html>
