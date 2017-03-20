@@ -69,6 +69,17 @@
 					<wtpContextName>/</wtpContextName>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>3.0.0</version>
+				<configuration>
+					<outputDirectory>${project.basedir}/webapp/WEB-INF/lib</outputDirectory>
+					<overWriteReleases>false</overWriteReleases>
+					<overWriteSnapshots>false</overWriteSnapshots>
+					<overWriteIfNewer>true</overWriteIfNewer>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 </project>
