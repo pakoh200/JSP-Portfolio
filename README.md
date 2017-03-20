@@ -1,2 +1,2 @@
 # JSP-Portfolio
-#DAO리팩토리 전
+#before DAO refactoring
